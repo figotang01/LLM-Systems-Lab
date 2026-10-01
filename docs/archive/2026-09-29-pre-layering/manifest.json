@@ -1,0 +1,26 @@
+{
+  "PROJECT_PLAN.md": {
+    "bytes": 52310,
+    "sha256": "9bd01540b3bef85c1f5b8f3e11ee4661db5052428150bebff2e82d789a511dc3"
+  },
+  "teaching/CURRICULUM.md": {
+    "bytes": 31623,
+    "sha256": "7aa061c3a404a0f0fe82b12b4f118ae0e5bc82a6c1aac4c0c06955115cb9de11"
+  },
+  "docs/DECEMBER_SKELETON.md": {
+    "bytes": 22718,
+    "sha256": "f665be9557ec7ae21dd7e070ce85da68fe1c6c7d80343c77fc4cbe3d568fa1a1"
+  },
+  "docs/PLAN_ADDITIONS.md": {
+    "bytes": 16766,
+    "sha256": "d875896c7de6d6615b0d0d76c99e8da05ba5c1c3a94cc4f1b9e8da66a590ae86"
+  },
+  "docs/PLAN_REVIEW.md": {
+    "bytes": 18746,
+    "sha256": "f091bfd663f6701f794a6d485da92552ca3b3e32750b67551490c44f841c93da"
+  },
+  "docs/VALIDATION.md": {
+    "bytes": 4168,
+    "sha256": "5647c3c7e77465796bb8d36ff1bcdc22d81950bde0b97253e23f55e48cb71a55"
+  }
+}

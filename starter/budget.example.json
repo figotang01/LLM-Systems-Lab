@@ -1,0 +1,12 @@
+{
+  "price_checked": "2026-09-28",
+  "price_source": "https://lambda.ai/instances",
+  "assumptions": "Listed GPU rates converted to whole-node rates. Availability, compatibility and tax require checking. Hours include setup and idle time.",
+  "phases": [
+    {"name": "single A6000 development", "nodes": 1, "gpus_per_node": 1, "wall_hours": 80, "usd_per_node_hour": 1.09},
+    {"name": "two A6000 experiment node", "nodes": 1, "gpus_per_node": 2, "wall_hours": 30, "usd_per_node_hour": 2.18},
+    {"name": "single H100 PCIe specialist", "nodes": 1, "gpus_per_node": 1, "wall_hours": 10, "usd_per_node_hour": 3.29}
+  ],
+  "other_usd": 30,
+  "contingency_fraction": 0.30
+}

@@ -1,0 +1,20 @@
+# macOS and Python local files
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials; explicitly share only a sanitized example
+.env
+.env.*
+!.env.example
+
+# Personal resumes and local recovery ZIPs (not needed by a clone)
+/resume/
+/docs/archive/*.zip
+
+# Local experiment outputs and downloaded checkpoints
+/runs/
+/checkpoints/

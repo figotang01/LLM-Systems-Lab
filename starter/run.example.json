@@ -1,0 +1,18 @@
+{
+  "experiment": "Lesson 00 artifact fixture",
+  "hypothesis": "Artifact collection should preserve configuration and separate fixtures from measured results.",
+  "measurement_kind": "fixture",
+  "engine": "none; no server is launched",
+  "model": "none; fill exact model and tokenizer revisions for a real experiment",
+  "hardware": "local CPU; no GPU measurement",
+  "workload": "empty fixture; replace with versioned workload identity",
+  "model_revision": null,
+  "tokenizer_revision": null,
+  "chat_template_hash": null,
+  "image_digest": null,
+  "driver_cuda_backend_versions": null,
+  "slo_contract": null,
+  "replay_mode": null,
+  "cache_preparation": null,
+  "note": "Fill missing provenance for real runs. Do not put credentials or private prompts here."
+}

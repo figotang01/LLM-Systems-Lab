@@ -1,0 +1,28 @@
+# Supplied repository checks; no model downloads, GPU jobs or API calls.
+# Official action usage: https://github.com/actions/checkout
+# and https://github.com/actions/setup-python (checked during handoff).
+name: CPU repository checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  documentation-and-utilities:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check documentation and task graph
+        run: python tools/check_docs.py
+      - name: Test supplied repository utilities
+        run: python -m unittest discover -s tests -v
